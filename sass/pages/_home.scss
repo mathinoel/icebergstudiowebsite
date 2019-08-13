@@ -1,0 +1,62 @@
+.expertise{
+    
+    &__content{
+        display: block;
+        position: relative;
+        right: 0;
+        top: 0;
+        padding-left: 45%;
+    }
+
+    &__3box{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-flow: wrap;
+    }
+
+    &__item{
+        background-color: $color-primary;
+        width: 35.6rem;
+        height: 41.3rem;
+        margin-left: 1rem;
+        padding: 4rem;
+
+        &:first-child{
+            margin: 0;
+        }
+
+        &:nth-child(2n){
+            margin-top: 6rem;
+        }
+
+        &:nth-child(3n){
+            margin-top: 12rem;
+        }
+    }
+
+    &__picto{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
+
+.portfolio{
+
+    &__content{
+        width: 54.2rem;
+    }
+
+
+    &__container{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-flow: wrap; 
+    }
+}

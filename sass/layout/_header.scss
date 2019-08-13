@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 8.8rem;
+    
+
+    &__social-box{
+       
+        padding-right: 9.3rem;
+
+    }
+    
+    &__list{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__item{
+        display: inline;
+        width: 2rem;
+        padding: 0 1rem;
+
+    }
+
+
+}
+
+.logo-big{
+    width: 7.7rem;
+}
+

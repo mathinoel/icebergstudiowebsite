@@ -1,0 +1,20 @@
+.bighero{
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-right: 9.3rem;
+    padding-bottom: 8rem;
+    justify-content: space-between;
+
+ 
+
+    &__content{
+        width: 54.2rem;
+        padding-right: 3rem;
+}
+}
+
+.illustration{
+    width: 35.6rem;
+}

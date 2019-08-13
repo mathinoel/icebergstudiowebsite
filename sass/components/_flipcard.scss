@@ -1,0 +1,19 @@
+.flipcard{
+
+    perspective: 150rem;
+
+    &__side{
+            display: block;
+            background-color: green;
+            height: 45.3rem;
+            width: 35.6rem;
+            transition: all .5s;
+        }
+
+        
+
+    &:hover &__side{
+        transform: rotateY(180deg);
+        }
+    
+    }

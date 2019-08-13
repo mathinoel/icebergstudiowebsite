@@ -1,0 +1,36 @@
+.btn {
+    &:link,
+    &:visited {
+        
+        display: inline-block;
+        border-radius: 10rem;
+        position: relative;
+        font-family: "Open sans";
+        font-weight: 600;
+        
+    }
+
+    &--outline{
+        padding: 1.5rem 5rem;
+        text-decoration: none;
+        background-color: $color-white;
+        color: $color-secondary;
+        border: 0.1rem solid $color-secondary;
+        letter-spacing: 0.3rem;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+
+    }
+
+    &--small{
+        padding: 1rem 5rem;
+        text-decoration: none;
+        color: $color-white;
+        border: 0.1rem solid $color-white;
+        text-transform: uppercase;
+        font-size: 1.1rem;
+        left: 50%;
+        transform: translate(-50%);
+        
+    }
+}
